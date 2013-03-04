@@ -1,0 +1,11 @@
+{
+  "name": "belt-gravatar",
+  "description": "Provides Gravatar API. For use with Meteor Belt applications",
+  "homepage": "https://github.com/meteorbelt/belt-gravatar",
+  "author": "Kyle Finley <kyle@meteorbelt.com>",
+  "version": "0.1.0",
+  "git": "https://github.com/meteorbelt/belt-gravatar.git",
+  "packages": {
+    "belt-md5": {}
+  }
+}

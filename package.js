@@ -3,15 +3,15 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
+  api.use('belt');
   api.use('belt-md5');
   api.use('underscore');
-  api.add_files([
-    'gravatar/lib/gravatar.js'], ['client', 'server']);
+  api.add_files('gravatar_common.js', ['client', 'server']);
 });
 
 Package.on_test(function (api) {
   api.use('belt-gravatar');
   api.use('tinytest');
 
-  api.add_files('tests/lib/gravatar_tests.js', 'server');
+  api.add_files('gravatar_tests.js', 'server');
 });

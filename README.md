@@ -14,7 +14,7 @@ $ mrt add belt-gravatar
 
 ### Basics
 
-```javascript
+```
 var params = {
   secure: true, // https ?
   d: encodeURIComponent('http://example.org'), // defalut

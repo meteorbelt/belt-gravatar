@@ -1,10 +1,10 @@
 // Should create the correct hash
-Tinytest.add("Gravatar urlFromEmail with no params", function (test) {
+Tinytest.add("belt - gravatar - urlFromEmail with no params", function (test) {
   var url = Belt.Gravatar.urlFromEmail('hello@meteorbelt.com');
   test.equal(url, 'http://www.gravatar.com/avatar/44e00c6d4a1deab14c40c00c89844cac');
 });
 
-Tinytest.add("Gravatar urlFromEmail with params", function (test) {
+Tinytest.add("belt - gravatar - urlFromEmail with params", function (test) {
   var params = {
     secure: true, // https ?
     d: encodeURIComponent('http://example.org'), // defalut

@@ -2,7 +2,7 @@
 // Gravatar API (http://en.gravatar.com/site/implement/images/)
 
 // Get or create the global Belt namespace
-var Belt = Belt || {};
+if( typeof Belt == 'undefined' ) Belt = {};
 
 (function () {
   var obj = {};

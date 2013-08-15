@@ -1,7 +1,12 @@
 
-n.n.n / 2013-08-15 
+v0.2.0 / 2013-08-15 
 ==================
 
+ * bumped mrt version
+ * Removed CHANGELOG.md
+ * updated docs
+ * Removed Belt namespace Belt.Gravatar is now just Gravatar
+ * renamed CHANGELOG.md to History.md and made the format compatible with git-changelog
  * refactor: upgraded to Meteor's new package manager
  * docs: README example should be javascript
 

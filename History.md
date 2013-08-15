@@ -2,6 +2,9 @@
 v0.2.0 / 2013-08-15 
 ==================
 
+ * updated docs
+ * removed smart.lock
+ * updated history
  * bumped mrt version
  * Removed CHANGELOG.md
  * updated docs

@@ -1,4 +1,4 @@
-# Meteor Belt Gravatar
+# Meteor Belt Gravatar (https://travis-ci.org/meteorbelt/belt-gravatar.png?branch=master)](https://travis-ci.org/meteorbelt/belt-gravatar)
 
 Provides Gravatar API. For use with Meteor Belt applications
 
